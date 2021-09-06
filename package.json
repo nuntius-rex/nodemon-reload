@@ -1,0 +1,32 @@
+{
+  "name": "nodemon-reload",
+  "version": "1.0.0",
+  "description": "Reloading server and browser with nodemon and reload.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuntius-rex/nodemon-reload.git"
+  },
+  "keywords": [
+    "nodemon",
+    "reload",
+    "server",
+    "browser",
+    "refresh"
+  ],
+  "author": "Dan Guinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuntius-rex/nodemon-reload/issues"
+  },
+  "homepage": "https://github.com/nuntius-rex/nodemon-reload#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "reload": "^3.2.0"
+  }
+}
